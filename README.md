@@ -1,0 +1,3 @@
+# Kotlin Collection Operations on Empty Lists
+
+This repository demonstrates a common error in Kotlin when using collection operations (map, filter, reduce) on potentially empty lists.  The code throws exceptions if the list is empty because these functions aren't designed to handle empty inputs gracefully.  The solution demonstrates how to make the code more robust using the `isNullOrEmpty()` check and the `orEmpty()` function.
